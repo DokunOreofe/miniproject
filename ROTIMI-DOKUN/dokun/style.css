@@ -82,24 +82,24 @@ input {
 /* body starts here */
 
 .wrap {
-    margin: 70px;
+    margin:15px;
+    margin-left: 5rem;
     display: flex;
     justify-content: space-between;
 }
  
 .title {
-    text-align: start;
     color: black;
     font-weight: 600;
     font-size: 24px;
-    margin: 20px;
+    margin-left: 6rem;
 
 }
 
 .main img {
     padding: 20px;
-    width: 500px;
-    height:220px; 
+    width: 550px;
+    height:250px; 
 }
 
 .first {
@@ -108,11 +108,10 @@ input {
 
 }
 .first h2{
-
     font-size: 14px;
     font-weight: 600;
     color: #6941c6;
-    margin: 15px 0; 
+
 }
 .first h5{ 
     font-size: 24px;
@@ -121,11 +120,10 @@ input {
     margin: 10px 0;
 }
 
- /* .narrow {
-    padding: 20px;
-    transform: rotate(80);
-    margin: ;
-    translate: ;  */
+.first .icons i{
+    translate: 12rem;
+    transform:rotate(330deg)
+
 
 } 
 .first p {
@@ -149,7 +147,6 @@ input {
 
 }
 
-
 .second-text h2 {
     font-size: 14px;
     font-weight: 600;
@@ -169,9 +166,6 @@ input {
     color: #667085;
      margin: 5px; 
 }
-
-
-
 
 .blog {
     margin: 70px;
@@ -205,7 +199,7 @@ input {
     color: #6941c6;
 }
 .container-text h1 {
-    font-size: 18px;
+    font-size: 24px;
      font-weight: 600;
     color: #101828;
     padding: 10px 0;
